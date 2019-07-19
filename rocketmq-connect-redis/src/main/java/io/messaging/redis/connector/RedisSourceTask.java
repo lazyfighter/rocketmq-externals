@@ -8,7 +8,7 @@ import io.openmessaging.connector.api.source.SourceTask;
 
 import java.util.Collection;
 
-public class RedisSouceTask extends SourceTask {
+public class RedisSourceTask extends SourceTask {
 
 
     private Config config;

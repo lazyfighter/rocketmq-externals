@@ -45,7 +45,7 @@ public class RedisSourceConnector extends SourceConnector {
 
     @Override
     public Class<? extends Task> taskClass() {
-        return RedisSouceTask.class;
+        return RedisSourceTask.class;
     }
 
     @Override
